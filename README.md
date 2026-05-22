@@ -79,21 +79,25 @@ NII declines by 15.6% due to reduced floating-rate asset income
 The framework also captures non-parallel term structure effects through steepener and flattener scenarios, highlighting sensitivity concentration in the intermediate and long-end asset book.
 
 ## Base Balance Sheet Metrics
-Metric	                                                                                                        Value
-Economic Value of Equity (EVE)                                                                              	 ₹13,580 Cr
-Net Interest Income (1Y)                                                                                     	 ₹2,846 Cr
-Asset Duration	                                                                                               4.54 years
-Liability Duration	                                                                                           1.67 years
-Duration of Equity	                                                                                           25.65 years
+
+| Metric | Value |
+|---|---:|
+| Economic Value of Equity (EVE) | ₹13,580 Cr |
+| Net Interest Income (1Y) | ₹2,846 Cr |
+| Asset Duration | 4.54 years |
+| Liability Duration | 1.67 years |
+| Duration of Equity | 25.65 years |
 
 ## Scenario Sensitivity
-Scenario	                               ΔEVE(% Equity)	           ΔNII (% Base NII)	          Duration of Equity
-Parallel Up (+250bp)                             -55.0%	                       15.6%	                       19.26
-Parallel Down (-250bp)                   	        74.2%	                      -15.6%	                       34.55
-Steepener	                                       -22.3%	                        0.8%	                       22.91
-Flattener                               	        25.3%	                       -0.8%	                       28.77
-Short Rate Up (+300bp)                  	        -1.3%	                        5.6%	                       25.62
-Short Rate Down (-300bp)	                         1.4%	                       -5.6%	                       25.68
+
+| Scenario | ΔEVE (% Equity) | ΔNII (% Base NII) | Duration of Equity |
+|---|---:|---:|---:|
+| Parallel Up (+250bp) | -55.0% | 15.6% | 19.26 |
+| Parallel Down (-250bp) | 74.2% | -15.6% | 34.55 |
+| Steepener | -22.3% | 0.8% | 22.91 |
+| Flattener | 25.3% | -0.8% | 28.77 |
+| Short Rate Up (+300bp) | -1.3% | 5.6% | 25.62 |
+| Short Rate Down (-300bp) | 1.4% | -5.6% | 25.68 |
 
 The behavioural repricing gap profile indicates substantial short-end liability sensitivity driven by deposit funding concentration, partially offset by long-duration retail and fixed-income asset exposure.
 
