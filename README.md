@@ -8,30 +8,33 @@ Built with amortising loan cashflows, floating-rate repricing dynamics, behaviou
 
 # Core Analytics
 
-Economic Value of Equity (EVE) sensitivity under supervisory rate shocks
-Net Interest Income (NII / EaR) exposure modelling
-Duration of Equity decomposition
-Behavioural repricing gap analytics
-Balance sheet sensitivity profiling across the term structure
+- Economic Value of Equity (EVE) sensitivity under supervisory rate shocks
+- Net Interest Income (NII / EaR) exposure modelling
+- Duration of Equity decomposition
+- Behavioural repricing gap analytics
+- Balance sheet sensitivity profiling across the term structure
 
 # Balance Sheet Framework
 
 The banking book includes:
 
-Assets	Liabilities
-Home Loans	Savings Deposits
-MSME Term Loans	Fixed Deposits
-Corporate Loans	Infra Bonds
-Government Securities	Repo Borrowings
-Treasury Bills	CASA Deposits
+
+| Assets | Amount (₹ Cr) | Liabilities | Amount (₹ Cr) |
+|---|---:|---|---:|
+| Home Loans | 30,000 | Savings Deposits | 20,000 |
+| MSME Term Loans | 20,000 | CASA Deposits | 10,000 |
+| Corporate Loans | 25,000 | Fixed Deposits (1Y) | 25,000 |
+| Government Securities | 15,000 | Fixed Deposits (3Y) | 15,000 |
+| Treasury Bills | 5,000 | Infra Bonds | 10,000 |
+| Cash / CRR | 5,000 | Repo Borrowings | 8,000 |
 
 The framework models:
 
-amortising retail and MSME loan cashflows
-floating-rate asset and liability repricing
-fixed-income security valuation
-behavioural treatment of non-maturity deposits
-tenor-based repricing exposure across the balance sheet
+- amortising retail and MSME loan cashflows
+- floating-rate asset and liability repricing
+- fixed-income security valuation
+- behavioural treatment of non-maturity deposits
+- tenor-based repricing exposure across the balance sheet
 
 # Behavioural Assumptions
 
