@@ -40,11 +40,11 @@ The framework models:
 
 The analytics framework incorporates:
 
-deposit beta transmission modelling
-behavioural maturity transformation
-sticky/core deposit segmentation
-repricing asymmetry across liabilities
-behavioural tenor allocation for savings balances
+- deposit beta transmission modelling
+- behavioural maturity transformation
+- sticky/core deposit segmentation
+- repricing asymmetry across liabilities
+- behavioural tenor allocation for savings balances
 
 to approximate observed banking book repricing behaviour under changing rate environments.
 
@@ -52,17 +52,17 @@ to approximate observed banking book repricing behaviour under changing rate env
 
 Implements Basel IRRBB supervisory shock scenarios across the INR term structure:
 
-Parallel Up / Down
-Steepener
-Flattener
-Short Rate Up / Down
+- Parallel Up / Down
+- Steepener
+- Flattener
+- Short Rate Up / Down
 
 The framework supports:
 
-parallel and non-parallel curve shocks
-yield curve interpolation
-shocked discount curve valuation
-balance sheet sensitivity analysis under stressed rate environments
+- parallel and non-parallel curve shocks
+- yield curve interpolation
+- shocked discount curve valuation
+- balance sheet sensitivity analysis under stressed rate environments
 
 # Supervisory Sensitivity Profile
 
@@ -70,14 +70,14 @@ The balance sheet exhibits a structurally asset-sensitive profile, with asset du
 
 Under the supervisory parallel +250bp shock scenario:
 
-EVE declines by 55.0% of equity due to long-duration fixed-rate asset exposure
-1-year NII increases by 15.6% as floating-rate assets reprice faster than liabilities
-Duration of Equity compresses from 25.65 years to 19.26 years under higher-rate conditions
+- EVE declines by 55.0% of equity due to long-duration fixed-rate asset exposure
+- 1-year NII increases by 15.6% as floating-rate assets reprice faster than liabilities
+- Duration of Equity compresses from 25.65 years to 19.26 years under higher-rate conditions
 
 Conversely, under a -250bp parallel shock:
 
-EVE increases by 74.2% of equity
-NII declines by 15.6% due to reduced floating-rate asset income
+- EVE increases by 74.2% of equity
+- NII declines by 15.6% due to reduced floating-rate asset income
 
 The framework also captures non-parallel term structure effects through steepener and flattener scenarios, highlighting sensitivity concentration in the intermediate and long-end asset book.
 
