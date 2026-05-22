@@ -6,7 +6,7 @@ The framework evaluates Economic Value of Equity (EVE), Net Interest Income (NII
 
 Built with amortising loan cashflows, floating-rate repricing dynamics, behavioural non-maturity deposit assumptions, and yield curve stress infrastructure aligned with real-world Asset-Liability Management (ALM) practices.
 
-# Core Analytics
+##  Core Analytics
 
 - Economic Value of Equity (EVE) sensitivity under supervisory rate shocks
 - Net Interest Income (NII / EaR) exposure modelling
@@ -14,7 +14,7 @@ Built with amortising loan cashflows, floating-rate repricing dynamics, behaviou
 - Behavioural repricing gap analytics
 - Balance sheet sensitivity profiling across the term structure
 
-# Balance Sheet Framework
+## Balance Sheet Framework
 
 The banking book includes:
 
@@ -36,7 +36,7 @@ The framework models:
 - behavioural treatment of non-maturity deposits
 - tenor-based repricing exposure across the balance sheet
 
-# Behavioural Assumptions
+## Behavioural Assumptions
 
 The analytics framework incorporates:
 
@@ -48,7 +48,7 @@ The analytics framework incorporates:
 
 to approximate observed banking book repricing behaviour under changing rate environments.
 
-# Supervisory Stress Framework
+## Supervisory Stress Framework
 
 Implements Basel IRRBB supervisory shock scenarios across the INR term structure:
 
@@ -64,7 +64,7 @@ The framework supports:
 - shocked discount curve valuation
 - balance sheet sensitivity analysis under stressed rate environments
 
-# Supervisory Sensitivity Profile
+## Supervisory Sensitivity Profile
 
 The balance sheet exhibits a structurally asset-sensitive profile, with asset duration materially exceeding liability duration.
 
@@ -81,7 +81,7 @@ Conversely, under a -250bp parallel shock:
 
 The framework also captures non-parallel term structure effects through steepener and flattener scenarios, highlighting sensitivity concentration in the intermediate and long-end asset book.
 
-## Base Balance Sheet Metrics
+### Base Balance Sheet Metrics
 
 | Metric | Value |
 |---|---:|
@@ -91,7 +91,7 @@ The framework also captures non-parallel term structure effects through steepene
 | Liability Duration | 1.67 years |
 | Duration of Equity | 25.65 years |
 
-## Scenario Sensitivity
+### Scenario Sensitivity
 
 | Scenario | ΔEVE (% Equity) | ΔNII (% Base NII) | Duration of Equity |
 |---|---:|---:|---:|
@@ -104,6 +104,40 @@ The framework also captures non-parallel term structure effects through steepene
 
 The behavioural repricing gap profile indicates substantial short-end liability sensitivity driven by deposit funding concentration, partially offset by long-duration retail and fixed-income asset exposure.
 
+
+## Repository Structure
+
+irrbb-risk-analytics/
+
+│
+
+├── src/
+
+│   ├── analytics/
+
+│   ├── curves/
+
+│   ├── instruments/
+
+│   ├── portfolio/
+
+│   ├── behavioural/
+
+│   ├── reporting/
+
+│   └── main.py
+
+│
+
+├── data/
+
+├── outputs/
+
+├── tests/
+
+├── docs/
+
+└── dashboard/
 
 
 
