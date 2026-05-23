@@ -139,8 +139,8 @@ irrbb-risk-analytics/
 │   │
 │   └── main.py
 │
-├── outputs/
-└── docs/
+└── outputs/
+ 
 ```
 
 
