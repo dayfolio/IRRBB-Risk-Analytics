@@ -107,38 +107,42 @@ The behavioural repricing gap profile indicates substantial short-end liability 
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 irrbb-risk-analytics/
-
 │
-
+├── README.md
+├── requirements.txt
+│
 ├── src/
-
 │   ├── analytics/
-
+│   │   ├── eve.py
+│   │   ├── nii.py
+│   │   ├── duration.py
+│   │   └── repricing.py
+│   │
 │   ├── curves/
-
+│   │   ├── curve.py
+│   │   ├── interpolation.py
+│   │   └── shocks.py
+│   │
 │   ├── instruments/
-
+│   │   ├── cashflows.py
+│   │   └── fixed_income.py
+│   │
 │   ├── portfolio/
-
-│   ├── behavioural/
-
+│   │   └── banking_book.py
+│   │
 │   ├── reporting/
-
+│   │   ├── charts.py
+│   │   └── tables.py
+│   │
 │   └── main.py
-
 │
-
-├── data/
-
 ├── outputs/
-
-├── tests/
-
-├── docs/
-
-└── dashboard/
-
+└── docs/
+```
 
 
 
