@@ -107,7 +107,6 @@ The behavioural repricing gap profile indicates substantial short-end liability 
 
 ## Repository Structure
 
-## Repository Structure
 
 ```text
 irrbb-risk-analytics/
